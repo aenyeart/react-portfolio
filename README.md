@@ -27,9 +27,9 @@ Start time: 6:50p
 Finish time: 7:15p
 Actual time needed to complete: 25m
 
-Number and name of feature: ________________________________
-Estimate of time needed to complete: _____
-Start time: _____
+Number and name of feature: #5 Personalize
+Estimate of time needed to complete: ?
+Start time: 8:00
 Finish time: _____
 Actual time needed to complete: _____
 
