@@ -89,26 +89,20 @@
     ],
     "experience": [
       {
-        "company": "DefOpenSource",
-        "title": "Front-End Developer",
-        "years": "10.2019 - present",
+        "company": "Code Fellows",
+        "title": "Software Development Student",
+        "years": "10.2021 - present",
         "mainTech": [
           "Javascript"
         ],
         "technologies": [
           "JavaScript",
-          "Bootstrap"
-        ]
-      },
-      {
-        "company": "Serros Solutions",
-        "title": "Intern",
-        "years": "01.2018 - 09.2019",
-        "mainTech": [
-          "Some main tech"
-        ],
-        "technologies": [
-          "JavaScript"
+          "React",
+          "Bootstrap",
+          "GitHub",
+          "Git",
+          "HTML 5",
+          "CSS 3" 
         ]
       }
     ]
