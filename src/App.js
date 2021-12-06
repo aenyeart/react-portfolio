@@ -28,17 +28,17 @@ class App extends Component {
     this.loadResumeFromPath(resumePath);
   }
 
-  swapCurrentlyActiveLanguage = (oppositeLangIconId) => {
-    var pickedLangIconId =
-      oppositeLangIconId === window.$primaryLanguageIconId
-        ? window.$secondaryLanguageIconId
-        : window.$primaryLanguageIconId;
-    document
-      .getElementById(oppositeLangIconId)
-      .removeAttribute("filter", "brightness(40%)");
-    document
-      .getElementById(pickedLangIconId)
-      .setAttribute("filter", "brightness(40%)");
+  swapCurrentlyActiveLanguage = (oppositeLangIconId) => { // commenting out this function breaks the page without deeper extraction of feature
+    // var pickedLangIconId =
+    //   oppositeLangIconId === window.$primaryLanguageIconId
+    //     ? window.$secondaryLanguageIconId
+    //     : window.$primaryLanguageIconId;
+    // document
+    //   .getElementById(oppositeLangIconId)
+    //   .removeAttribute("filter", "brightness(40%)");
+    // document
+    //   .getElementById(pickedLangIconId)
+    //   .setAttribute("filter", "brightness(40%)");
   }
 
   componentDidMount = () => {
