@@ -24,8 +24,8 @@ Actual time needed to complete: 2h
 Number and name of feature: #4 Skill & Experience Sections
 Estimate of time needed to complete: 20m
 Start time: 6:50p
-Finish time: _____
-Actual time needed to complete: _____
+Finish time: 7:15p
+Actual time needed to complete: 25m
 
 Number and name of feature: ________________________________
 Estimate of time needed to complete: _____

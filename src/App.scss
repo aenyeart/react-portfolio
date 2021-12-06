@@ -1,7 +1,30 @@
 @import '/src/scss/themes/theme-dark.scss';
 @import '/src/scss/themes/theme-light.scss';
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300&display=swap');
+/** COLORS
+red:    #FE6F71 to replace #e9d5a1, #FE6F71
+yellow: #F9BE58 to replace 
+alt yellow: #EBB352 to replace #efe1bd
+blue:   #2263A1 to replace 
+white:  #EAE2D7 to replace white, #ffffff, #fff,
 
+grey:   #586070 to replace black, #000000, #1F1F1F, #353239
+ 
+#212529 (from reboot.scss)
+#ebeaf5
+#efe1bd
+rgba(51, 51, 51, 0.9)
+**/
+
+:root {
+  --whitish: #EAE2D7;
+  --yellowish: #EBB352;
+  --dark: #586070;
+  --reddish: #FE6F71;
+  --blue: #2263A1;
+
+
+}
 html {
 	font-size: 62.5%;
 	-webkit-font-smoothing: antialiased;
@@ -38,7 +61,7 @@ header {
 	-webkit-background-size: cover;
 	text-align: center;
 	overflow: hidden;
-	background-color: #e9d5a1;
+	background-color: var(--whitish);
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -51,6 +74,7 @@ header .nav {
 	font: 18px/24px 'opensans-bold', sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 5px;
+
 }
 
 .github-corner:hover .octo-arm {
@@ -70,10 +94,10 @@ header .nav {
 	padding: 8px 15px 2px 15px;
 	position: relative;
 	z-index: -500;
-	border-top: 5px solid #696969;
+	border-top: 5px solid var(--dark);
 	border-radius: 0 0 5px 5px;
-	background-color: #696969;
-	color: white;
+	background-color: var(--dark);
+	color: var(--whitish);
 }
 
 .skills-tile {
@@ -86,7 +110,7 @@ header .nav {
 
 .language {
 	font-size: 25px;
-	background-color: #e9d5a1;
+	background-color: var(--reddish);
 	padding-bottom: 10px;
 	padding-top: 80px;
 }
@@ -95,7 +119,7 @@ header h1 {
 	font-size: 400%;
 	text-align: center;
 	font-weight: 600 !important;
-	color: #353239;
+	color: var(--dark);
 	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 	margin: 0 auto 18px auto;
 	width: 100%;
@@ -120,7 +144,7 @@ header h1 {
 }
 
 #about {
-	background: #fff;
+	background: var(--whitish);
 	overflow: hidden;
 }
 
@@ -129,7 +153,7 @@ header h1 {
 	font: 18px/24px 'opensans-bold', sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 3px;
-	color: black;
+	color: var(--dark);
 	text-align: center;
 }
 
@@ -139,15 +163,15 @@ header h1 {
 }
 
 .foto div {
-	background: #ffffff;
+	background: var(--whitish);
 	display: inline-block;
 	margin: 0 auto 5% auto;
 	padding: 10px 10px 5px;
 	text-align: center;
 	text-decoration: none;
-	-webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
-	-moz-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
-	box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+	-webkit-box-shadow: 0 4px 6px var(--reddish);
+	-moz-box-shadow: 0 4px 6px var(--reddish);
+	box-shadow: 0 4px 6px var(--reddish);
 	-webkit-transition: all .20s linear;
 	-moz-transition: all .20s linear;
 	transition: all .20s linear;
@@ -168,9 +192,9 @@ header h1 {
 	-moz-transform: scale(1.01);
 	transform: scale(1.01);
 	z-index: 10;
-	-webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, .7);
-	-moz-box-shadow: 0 10px 20px rgba(0, 0, 0, .7);
-	box-shadow: 0 10px 20px rgba(0, 0, 0, .7);
+	-webkit-box-shadow: 0 10px 20px var(--blue);
+	-moz-box-shadow: 0 10px 20px var(--blue);
+	box-shadow: 0 10px 20px var(--blue);
 }
 
 .project-title-settings {
@@ -178,7 +202,7 @@ header h1 {
 	font: 18px/24px 'opensans-bold', sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 3px;
-	color: black;
+	color: var(--dark);
 	text-align: center;
 }
 
@@ -188,15 +212,15 @@ header h1 {
 }
 
 .polaroid span {
-	background: #ffffff;
+	background: var(--whitish);
 	display: inline-block;
 	margin: 55px 75px 30px;
 	padding: 15px 15px 30px;
 	text-align: center;
 	text-decoration: none;
-	-webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
-	-moz-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
-	box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+	-webkit-box-shadow: 0 4px 6px var(--reddish);
+	-moz-box-shadow: 0 4px 6px var(--reddish);
+	box-shadow: 0 4px 6px var(--reddish);
 	-webkit-transition: all .20s linear;
 	-moz-transition: all .20s linear;
 	transition: all .20s linear;
@@ -205,7 +229,7 @@ header h1 {
 }
 
 .link-href {
-	color: black;
+	color: var(--dark);
 }
 
 .wave {
@@ -231,7 +255,7 @@ header h1 {
 }
 
 #resume {
-	background: #efe1bd;
+	background: var(--yellowish);
 }
 
 .experience-icon {
@@ -245,8 +269,8 @@ header h1 {
 	text-align: left !important;
 	padding: 5px 8px 5px 8px !important;
 	vertical-align: baseline;
-	background-color: #AE944F !important;
-	color: white;
+	background-color: var(--reddish) !important;
+	color: var(--whitish);
 	font-weight: lighter !important;
 	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
@@ -257,7 +281,7 @@ header h1 {
 	padding: 5px 8px 5px 8px !important;
 	vertical-align: baseline;
 	background-color: #f9f5e9 !important;
-	color: black;
+	color: var(--dark);
 	font-weight: lighter !important;
 	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
@@ -276,7 +300,7 @@ header h1 {
 }
 
 .modal-inside .modal-content {
-	background: white;
+	background: var(--whitish);
 }
 
 .bars {
@@ -329,7 +353,7 @@ header h1 {
 }
 
 .close-icon {
-	color: black;
+	color: var(--dark);
 	font-weight: lighter !important;
 }
 
@@ -349,11 +373,11 @@ header h1 {
 }
 
 .loader-bar-color {
-	color: black !important;
+	color: var(--dark) !important;
 }
 
 #portfolio {
-	background: #efe1bd;
+	background: var(--yellowish);
 	padding-bottom: 5%;
 }
 
@@ -389,7 +413,7 @@ header h1 {
 }
 
 #skills {
-	background: #1F1F1F;
+	background: var(--reddish);
 	min-height: 200px;
 	width: 100%;
 	overflow: hidden;
@@ -402,36 +426,36 @@ header h1 {
 	font: 18px/24px 'opensans-bold', sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 3px;
-	color: #fff;
+	color: var(--whitish);
 	text-align: center;
 }
 
 .skill-icon {
 	font-size: 180%;
-	color: white;
+	color: var(--whitish);
 	text-align: center;
 	position: relative;
 }
 
 footer {
-	background: #1F1F1F;
+	background: var(--dark);
 	min-height: 100px;
 	width: 100%;
 	overflow: hidden;
 	font-size: 14px;
-	color: white;
+	color: var(--whitish);
 	position: relative;
 	text-align: center;
 }
 
 footer a,
 footer a:visited {
-	color: #fff;
+	color: var(--whitish);
 }
 
 footer a:hover,
 footer a:focus {
-	color: #fff;
+	color: var(--whitish);
 }
 
 .social-links {
