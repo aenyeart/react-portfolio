@@ -12,12 +12,12 @@ Actual time needed to complete: 1hr
 Number and name of feature: #2 About Me Page
 Estimate of time needed to complete: 45m
 Start time: 3:00p
-Finish time: _____
-Actual time needed to complete: _____
+Finish time: 4:00p
+Actual time needed to complete: 1hr
 
-Number and name of feature: ________________________________
-Estimate of time needed to complete: _____
-Start time: _____
+Number and name of feature: #3 Projects Section
+Estimate of time needed to complete: 1h30m
+Start time: 4:15p
 Finish time: _____
 Actual time needed to complete: _____
 
