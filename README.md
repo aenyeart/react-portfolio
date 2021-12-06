@@ -17,7 +17,7 @@ Actual time needed to complete: 1hr
 
 Number and name of feature: #3 Projects Section
 Estimate of time needed to complete: 1h30m
-Start time: 4:15p
+Start time: 4:40p
 Finish time: _____
 Actual time needed to complete: _____
 
